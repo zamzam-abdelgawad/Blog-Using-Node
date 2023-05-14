@@ -1,0 +1,170 @@
+body {
+    margin: 5px 0;
+    padding: 0;
+    font: 74% Arial, Sans-Serif;
+    color: #000;
+    line-height: 1.4em;
+    background: #575757;
+
+}
+
+.content {
+    color: #3B2A0A;
+    margin: 0 auto;
+    padding: 0;
+    width: 825px;
+    background: url(bg2.jpg) repeat-y center bottom;
+   /* animation: rotate 1s linear; */
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(50deg);
+    }
+    
+}
+
+
+#header {
+    background: url(header.jpg) no-repeat;
+    width: 825px;
+    height:600px;
+    color: #3B2A0A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    /* animation: fromLeft 1s linear; */
+}
+@keyframes fromLeft {
+    0%{
+        transform: translateX(50%);
+    }
+    
+}
+
+#prefooter {
+    background: url(prefooter.jpg) no-repeat;
+    color: #85621f;
+    height: 190px;
+    text-align: left;
+    clear: both;
+    padding: 0px;
+    margin: 0;
+    /* animation: fromRight 1s linear; */
+
+}
+@keyframes fromRight {
+    0%{
+        
+        transform: translateX(-50%);
+    }
+    
+}
+#footer {
+    background: url(footer.jpg) no-repeat;
+    color: #8f8f8f;
+    height: 20px;
+    text-align: right;
+    font-size: 90%;
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 400px;
+    border-radius: 0.6em;
+    padding: 50px ;
+    background-color: var(--primary-color);
+    box-shadow: 20px 20px 60px burlywood, -20px -20px 60px burlywood;
+    margin: 90px  auto;
+    animation: fromTop 1s linear;
+  }
+  @keyframes fromTop {
+    0%{
+            
+        transform: translateY(-50%);
+    }
+    
+  }
+  
+  .form {
+    padding: 150px 40px 0px 40px;
+  }
+  
+  .form h2 {
+    text-align: center;
+    margin: 0 0 50px;
+    font-size: 18px;
+    font-style: oblique;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-control label {
+    color: #000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-style: oblique;
+
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input {
+    border-radius: 6px;
+    background: var(--primary-color);
+    box-shadow: inset 3px 3px 7px #e9bd7c, inset -3px -3px 7px #ffd98e;
+    min-height: 2.618em;
+      display: block;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    border:2px solid burlywood;
+
+  }
+  
+  .form-control input:focus {
+    outline: 0;
+    border-bottom:2px solid burlywood;
+  }
+  
+
+    
+    .form-control small {
+        color: red;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        visibility: hidden;
+    }
+    
+    .form-control.error small {
+        visibility: visible;
+    }
+  
+  .form .button {
+    cursor: pointer;
+    background:#c19c66;
+    box-shadow: 4px 4px 8px #c19c66, -4px -4px 8px #fffaa4;
+    border: 1px solid #1d040766;
+    color: #fff;
+    font-size: 16px;
+    padding: 0.618em 1.2em;
+    border-radius: 0.4em;
+    font-family: "Yeseva One", Georgia, cursive;
+    display: block;
+    margin-top: 1.2em;
+    width: 100%;
+    transition: all .6s;
+  }
+  
+  .form .button:hover{
+    outline: 0;
+    background-color: #85621E;
+  }

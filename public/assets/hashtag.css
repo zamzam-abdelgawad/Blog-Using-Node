@@ -1,0 +1,54 @@
+
+.inputTags .wrapper {
+    /* padding: 20px 28px; */
+    margin: 0;
+    /* width: 580px; */
+    /* background-color: #273c75; */
+    border-radius: 30px;
+    display: flex;
+    /* align-items: center; */
+    flex-flow: row wrap;
+  }
+
+  
+ .inputTags .wrapper input {
+    background-color: #f9e4b9;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+  }
+  
+  .inputTags .wrapper .tag-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .tag{
+    pointer-events: none;
+    font-size: 15px;
+    border: 1px dotted #242424;;
+    /* background-color: #242424; */
+    color:  #242424;;
+    text-align: center;
+    border: 2px dashed #1a1a1a;
+    line-height: initial;
+padding-right: 10px;  
+margin-right: 5px;  
+  }
+  
+  .tag::before {
+    pointer-events: all;
+    display: inline-block;
+    content: 'x';  
+    height: 30px;
+    width: 30px;
+    font-size: 22px;
+    margin-right: 6px;
+    text-align: center;
+    color: #242424;
+   
+    cursor: pointer;
+  }
+  .tag:hover{
+    color: red;
+  }

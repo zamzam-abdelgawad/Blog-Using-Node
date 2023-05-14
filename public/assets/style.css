@@ -1,0 +1,599 @@
+/* 
+
+Manuscript Free Template
+By Herreman David 
+http://www.free-css-templates.com
+
+*/
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: url(old-newspaper-background.jpg) ;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #3B2A0A;
+  }
+* {
+    padding: 0;
+    margin: 0
+}
+
+html{
+    background: url(old-newspaper-background.jpg) ;
+    background-size:cover ;
+    font-size: 16px;
+}
+body {
+    /* cursor:url(), auto; */
+  
+    backdrop-filter: brightness(0.5); 
+    /* height: 100vh; */
+    /* margin: 5px 0; */
+    padding: 0;
+    font: 74% Arial, Sans-Serif;
+    color: #000;
+    line-height: 1.4em;
+       /* cursor: pointer; */
+}
+::selection{
+    color: #fff;
+    background-color: #3B2A0A;
+}
+.content {
+    color: #3B2A0A;
+    margin: 0 auto;
+    padding: 0;
+    width: 825px;
+    background: url(bg2.jpg) repeat-y center bottom;
+}
+
+#header {
+    background: url(header.jpg) no-repeat;
+    width: 825px;
+    height: 213px;
+    color: #3B2A0A;
+}
+
+#header h1 {
+    background: inherit;
+    font: bold 3em "Tahoma", Arial;
+    color: #85621E;
+    line-height: 1em;
+}
+
+#header h3 {
+    background: inherit;
+    font: bold 1em "Tahoma", Arial;
+    color: #000;
+}
+
+#header .title {
+    padding: 60px 0 0 60px;
+}
+
+#main {
+    background: url(bg.jpg) no-repeat top;
+    height: 353px;
+    margin: 0;
+    padding: 0
+}
+
+#main .center {
+    width: 550px;
+    float: right;
+    padding: 0 60px 0 0px;
+}
+
+#main h2 {
+    background-color: inherit;
+    color: #85621E;
+    line-height: 0.2em;
+}
+
+#main h3 {
+    font: 85% Arial, Sans-Serif;
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #5f5f5f;
+    background: inherit;
+    
+}
+
+.leftmenu {
+    width: 120px;
+    float: left;
+    padding: 0;
+    padding: 0 0 0 40px;
+}
+
+.padding {
+    padding: 15px;
+}
+
+.img {
+    background: #FFF;
+    float: left;
+    padding: 1px;
+    margin: 5px 8px 5px 0;
+    color: #333;
+    border: 1px solid #e0e0e0;
+}
+
+/* PREFOOTER */
+#prefooter {
+    background: url(prefooter.jpg) no-repeat;
+    color: #85621f;
+    height: 190px;
+    text-align: left;
+    clear: both;
+    padding: 0px;
+    margin: 0;
+}
+
+#prefooter .particles {
+    float: right;
+    width: 300px;
+    padding: 20px 30px 0 0;
+    background: transparent
+}
+
+#prefooter .comments {
+    width: 270px;
+    padding: 20px 0px 0 0px;
+    float: right;
+    background: transparent
+}
+
+
+/* FOOTER */
+#footer {
+    background: url(footer.jpg) no-repeat;
+    color: #8f8f8f;
+    height: 44px;
+    text-align: right;
+    font-size: 90%;
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .padding {
+    padding: 20px 60px 0 0;
+}
+
+#footer hr {
+    width: 740px;
+    color: #888;
+    border: 1px solid #f0f0f0;
+    margin: 0 25px 0 25px;
+}
+
+#footer a {
+    color: #999;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+
+/* NAVIGATION */
+.nav {
+    clear: both;
+    text-align: left;
+    color: #85621E;
+    padding: 20px 0 0 0;
+}
+
+.nav li {
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    padding: 0 0 0 5px;
+    border-bottom: 1px solid #D2B881
+}
+
+.nav li a {
+    color: #546078;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: #95722E;
+    text-decoration: none;
+}
+
+
+.boxads {
+    background: #E7EDF0;
+    padding: 5px;
+    border: 1px solid #999;
+    color: #333;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+p {
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #555;
+    background: inherit;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    color: #eee;
+    background-color: #eee;
+}
+
+a {
+    color: #0F5B7F;
+    background: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    background: inherit;
+    text-decoration: underline;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    color: #0F5B7F;
+    background: inherit;
+    font: bold 1.8em Arial, Sans-Serif;
+    letter-spacing: -1px;
+}
+
+h1 a {
+    color: #0F5BFF;
+    background: inherit;
+}
+
+h2 {
+    background-color: inherit;
+    color: #85621E;
+    font-size: 140%;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    padding: 0;
+}
+
+h2 a {
+    color: #85621E;
+}
+.name_profile a{
+    color: #85621E;
+   
+}
+.name_profile{
+    padding-bottom: 20px;
+}
+h2 a:hover {
+    color: #BD9C5C;
+    text-decoration: none;
+}
+
+ul {
+    margin: 5px 0 20px 15px;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    list-style-type: none;
+    color: #F29900;
+    margin: 0 0 0px 0;
+    padding: 0 0 0 0px;
+}
+
+li a {
+    color: #546078;
+}
+
+li a:hover {
+    color: #F29900;
+}
+
+/*----------------- for snews --------------------------*/
+
+fieldset {
+    border: 1px solid #eee;
+}
+
+textarea.text {
+    height: 150px;
+    width: 90%;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #000;
+}
+
+textarea.text:hover {
+    border: 1px solid #eee;
+    background: #FFFFF4;
+    color: #000;
+}
+
+input.field {
+    border: 1px solid #ccc;
+    background-color: #3C3C3C;
+    width: 100px;
+    color: #000;
+}
+
+input.field:hover {
+    border: 1px solid #eee;
+    background: #ccc;
+    color: #000;
+}
+
+input.text {
+    margin: 0;
+    width: 110px;
+    border: 1px solid #546078;
+    background: #FFF;
+    color: #808080;
+}
+
+input.text:hover {
+    border: 1px solid #3a4354;
+}
+
+input.searchbutton {
+    margin: 0;
+    font-size: 100%;
+    font-family: Arial, Sans-serif;
+    border: none;
+    background: #FFFFFF;
+    color: #333;
+    padding: 1px;
+    font-weight: bold;
+}
+
+.date {
+    color: #5f5f5f;
+    background: inherit;
+    text-align: right;
+    margin: 4px 0 5px 0;
+    padding: 0.4em 0 0 0;
+    /* border-top: 1px solid #85621E; */
+}
+
+.date a {
+    color: #546078;
+}
+
+input.button {
+    background: #FFFFF4;
+    color: #808080;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.comments {
+    padding: 10px 10px 8px 10px;
+    margin: 0 0 7px 0;
+    background: #FFF;
+    color: #333;
+}
+
+.commentsbox {
+    padding: 8px 0 10px 10px;
+    margin: 0 0 10px 0;
+    background: #f4f4f4;
+    color: #000;
+}
+
+.error {
+    color: #990000;
+    background-color: #FFF0F0;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px dashed #990000;
+}
+
+.error h2 {
+    color: #990000;
+    background: inherit;
+}
+
+.success {
+    color: #000000;
+    background: #FAFAFA;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px dashed #546078;
+}
+
+.success h2 {
+    color: #546078;
+    background: inherit;
+}
+.form_add_search{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    width: 90%;
+}
+.search{
+    width: 70%;
+    display: flex;
+    padding-bottom: 30px;
+
+}
+.search input {
+    width: 100%;
+    height: 25px;
+    background-color: #f9e4b9;
+    border: 1px solid black;
+}
+.search button{
+    background-color: #BD9C5C;;
+    width: 90px;
+    height: 25px;
+    border: 1px solid #BD9C5C;
+    cursor: pointer;
+    color: black;
+    font: bold 1em "Tahoma", Arial;
+}
+.add button{
+background-color: #BD9C5C;;
+    width: 90px;
+    height: 25px;
+    border: 1px solid #BD9C5C;
+    cursor: pointer;
+    color: black;
+    font: bold 1em "Tahoma", Arial;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 10px; /* Location of the box */
+    left: 15%;
+    top: 0;
+    width: 70%; /* Full width */
+    height: 100%;
+    /* overflow: auto; */
+   
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    /* background-color: #fefefe; */
+    margin: auto;
+   
+    /* border: 1px solid #888; */
+    width: 90%;
+    background: url(bg.jpg) no-repeat top;
+    /* background-color: #a8894d; */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.modal_form input{
+    background-color: #f9e4b9;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.center_form label{
+    color: black;
+    font: bold 1.5em "Tahoma", Arial;
+    
+}
+.center_form input{
+    background-color: #f9e4b9;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+ 
+}
+.center_form textarea{
+    background-color: #f9e4b9;
+    margin-bottom: 20px;
+    width: 100%;
+    resize: none;
+   
+    
+}
+.center_form{
+    width: 90%;
+}
+.dis_flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #3b2a0a;
+    padding-bottom: 20px;
+    
+}
+.dis_flex_p{
+    width: 50%;
+    font-size: 14px;
+}
+.dis_flex_img{
+    width: 10%;
+}
+/* .dis_flex img{
+    width: 40%;
+} */
+.imgContainer{
+    width: 40%;
+}
+.imgContainer img{
+    width: 100%;
+}
+
+#blogs h3{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    border-bottom: 1px solid #3b2a0a;
+}
+.blogAuthor{
+    padding: 15px 0;
+}
+.blogTitle{
+    padding: 6px 0;  
+}
+
+.dell{
+    width: 90PX;
+    height: 30PX;
+    border-radius: 10PX;
+    border: 1PX solid #c5c5c5;
+    background-color:#f9e4b9 ;
+    color: black;
+    font-size: 17PX;
+    cursor: pointer;
+    margin: 10PX;
+}
+.dell:hover {
+    background-color: #3B2A0A;
+    color: white;
+}
+.update{
+    width: 90PX;
+    height: 30PX;
+    border-radius: 10PX;
+    border: 1PX solid #c5c5c5;
+    background-color:#f9e4b9 ;
+    color: black;
+    font-size: 17PX;
+    cursor: pointer;
+}
+.update:hover {
+    background-color: #3B2A0A;
+    color: white;
+}
